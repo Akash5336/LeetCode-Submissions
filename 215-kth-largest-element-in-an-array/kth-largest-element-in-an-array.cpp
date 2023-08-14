@@ -18,7 +18,6 @@ public:
     //     }
     //    return max;
     sort(nums.begin(),nums.end());
-    int target = nums.size()-k;
-    return nums[target];
+    return nums[nums.size()-k];
     }
 };
